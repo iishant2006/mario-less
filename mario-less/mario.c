@@ -16,7 +16,7 @@ int main(){
         // j = columns, hehe
 
         int spaces = h - i;
-        for (int k = 0; k <= spaces; k++){
+        for (int k = 1; k <= spaces; k++){
             printf(" ");
         }
         for (int j = 1; j <= i; j++){
@@ -26,4 +26,5 @@ int main(){
     }
 
     return 0;
+
 }
